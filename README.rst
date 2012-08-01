@@ -6,17 +6,13 @@ My basic buildout config.
 
 Install
 =====
-    * Add execute permission to ``get_bootstrap.sh`` ::
+    * Add execute permission to ``setup_env.sh`` ::
         
-        chmod a+x get_bootstrap.sh
-
-    * Run downloaded bootstrap.py file::
-        
-        python bootstrap.py
+        chmod a+x setup_env.sh
 
     * Run ::
 
-        bin/buildout
+        ./setup_env.sh
 
 
 Config
